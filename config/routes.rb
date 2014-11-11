@@ -1,4 +1,6 @@
 Odyss::Application.routes.draw do
+  resources :groups
+
   resources :challenges
 
   devise_for :users
