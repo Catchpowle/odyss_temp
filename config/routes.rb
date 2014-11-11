@@ -4,7 +4,7 @@ Odyss::Application.routes.draw do
   resources :challenges
 
   devise_for :users
-  root "pages#home"
+  root "groups#index"
   get "about" => "pages#about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
